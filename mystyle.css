@@ -1,0 +1,55 @@
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000;
+}
+th {
+    border: 1px solid #000;
+    font-weight: 900;
+    background-color: green;
+    color: white;
+
+}
+
+.wrapper {
+}
+
+img {
+
+    padding: 10px;
+    border: 5px dashed black;
+    margin: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: 320px;
+    height: 320px;
+    background-color: gray;
+    /* border: 5px dashed black; */
+}
+
+@media (max-width: 1000px) {
+    .box {
+        margin: 10px;
+        display: inline-block;
+        width: 100%;
+        height: 320px;
+        background-color: red;
+        /* border: 5px dashed black; */
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
